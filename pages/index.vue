@@ -1,5 +1,7 @@
 <template>
     <div>
-        HOME
+        <HeroSection/>
     </div>
 </template>
+<script setup>
+</script>

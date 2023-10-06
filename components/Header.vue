@@ -1,17 +1,15 @@
 <template>
-    <div class="flex pt-14">
-        <div class="text-white text-[28px] flex-1 text-center font-bold uppercase">
+    <div class="flex pt-14 justify-center relative">
+        <div class="text-white text-[28px] font-bold uppercase absolute left-20 top-[48px]">
             OPAL .
         </div>
-        <div class="hidden md:flex justify-between gap-20 items-center">
+        <div class="hidden md:flex justify-between items-center md:gap-10 md:ml-auto md:mr-20 lg:gap-20 lg:ml-0 lg:mr-0">
             <NuxtLink v-for="page in pages" :key="page.name" :to="page.path" class="text-white text-base font-medium uppercase">
                 {{page.name}}
             </NuxtLink>
         </div>
-        <div class="flex-1">
-            <div class="max-w-max ml-auto text-white md:hidden block">
-                Hamburger
-            </div>
+        <div class="max-w-max ml-auto text-white md:hidden block mr-20">
+            Hamburger
         </div>
     </div>
 </template>
