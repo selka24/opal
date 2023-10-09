@@ -1,1 +1,9 @@
 @import "clashdisplay.css";
+
+.nuxt-icon svg{
+    margin-bottom: 0 !important;
+}
+
+html{
+    background-color: #050D36;
+}
