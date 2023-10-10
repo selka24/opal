@@ -1,8 +1,8 @@
 <template>
     <div class="mt-56 text-white relative flex flex-col items-center">
 <!--        <nuxt-icon filled name="explore" class="text-[142px] left-1/2 top-[-7rem] translate-x-1/2"/>-->
-        <div class="flex gap-28 items-center">
-            <img src="/images/cyberspace.png" class="lg:block w-full max-w-[40%] h-full hidden" alt="cyberspace"/>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-28 items-center">
+            <img src="/images/cyberspace.png" class="w-full h-auto" alt="cyberspace"/>
 <!--            lg:max-w-[600px] lg:h-[596.46px]  xl:h-[674px] xl:max-w-[678px]-->
 <!--            <img class="maskImg hidden w-full lg:block" src="/images/business.webp" alt="business"/>-->
             <div>
@@ -19,14 +19,14 @@
                     Dramatically supply transparent deliverables before caward comp internal or "organic" sources. Comp transparent and leverage backward other.
                 </p>
                 <hr class="h-px my-6 bg-white border-0">
-                <div class="flex gap-8">
-                    <div class="flex w-full bg-white rounded-[5px] text-xl text-center font-medium text-secondary py-4 px-8 items-center">
+                <div class="grid grid-cols-1 xs:grid-cols-2 gap-8">
+                    <div class="flex flex-wrap bg-white rounded-[5px] text-xl text-center font-medium text-secondary py-4 px-8 justify-center items-center">
                         <nuxt-icon name="clock" filled class="text-[59px] mr-2"/>
-                        Money Back Guarantee
+                        <span>Money back guarantee</span>
                     </div>
-                    <div class="flex  w-full bg-white rounded-[5px] text-xl text-center font-medium text-secondary py-4 px-8  items-center">
+                    <div class="flex flex-wrap bg-white rounded-[5px] text-xl text-center font-medium text-secondary py-4 px-8 justify-center items-center">
                         <nuxt-icon name="send" filled class="text-[59px] mr-2"/>
-                        24/7 Online Support
+                        <span>24/7 Online Support</span>
                     </div>
                 </div>
             </div>

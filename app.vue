@@ -28,8 +28,14 @@ DONE------
 8.technologies section
 9.page titles, seo description
 10.who we are
+11.Service Section
+12.Work section
+13.How steps
+14.Numbers
+15.Testimonials, Rating, Avatar
 
 TO DO-------
+
 
 
 -->

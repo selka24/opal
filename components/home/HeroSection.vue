@@ -10,10 +10,7 @@
             <div class="flex flex-col relative leading-tight items-center text-white lg:text-[140px] md:text-[6rem] sm:text-[3.75rem] text-[3rem] font-bold">
                 <div class="absolute items-center flex flex-col top-[-90px] z-0">
                     <nuxt-icon name="sparkle" class="text-[40px] mb-2 text-secondary-content top-[-50px]"/>
-                    <nuxt-icon name="circle" class="text-[276px]"/>
-                    <div class="w-[70%] m-auto absolute bottom-0 left-0">
-                        <div class="h-0 pb-[100%] rounded-tr-full bg-gradient-to-tr from-secondary"></div>
-                    </div>
+                    <nuxt-icon name="circle" class="text-[276px]" filled/>
                 </div>
                 <div class="text-center z-10">
                     <div>

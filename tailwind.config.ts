@@ -11,6 +11,10 @@ export default <Partial<Config>>{
             },
             fontFamily: {
                 'sans': ['"Clash Display"', ...defaultTheme.fontFamily.sans]
+            },
+            screens: {
+                'xs': '360px',
+                ...defaultTheme.screens,
             }
         },
     }
