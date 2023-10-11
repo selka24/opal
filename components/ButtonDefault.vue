@@ -27,7 +27,7 @@ const currClass = computed(() => {
 <template>
     <button :disabled="disabled"
             :type="type"
-            :class="[currClass, 'rounded-[5px] px-7 py-4 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:bg-gray-400']">
+            :class="[currClass, 'rounded-[5px] px-7 py-4 text-sm font-semibold  shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:bg-gray-400']">
         <slot>Action</slot>
     </button>
 </template>

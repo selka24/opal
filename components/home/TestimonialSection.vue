@@ -3,9 +3,9 @@
         <div class="w-[40%] m-auto absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-1">
             <div class="h-0 pb-[100%] rounded-full bg-primary opacity-20 blur-[150px]"></div>
         </div>
-        <div class="flex flex-col justify-center text-center items-center text-white z-2 relative">
-            <h1 class="text-5xl font-bold leading-[60px] mb-6">Testimonials</h1>
-            <p class="font-light opacity-70">
+        <div class="flex flex-col justify-center text-center items-center  z-2 relative">
+            <h2 class="mb-6 text-4xl sm:text-5xl">Testimonials</h2>
+            <p>
                 Dramatically supply transparent backward deliverables before caward comp internal or organic sources.
             </p>
             <hr class="h-[0.5px] my-14 bg-white opacity-10 border-0 w-full">
@@ -17,6 +17,3 @@
         </div>
     </div>
 </template>
-<script setup>
-
-</script>

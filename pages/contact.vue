@@ -1,6 +1,6 @@
 <template>
-    <div  class="text-white">
-        CONTACT US.
+    <div>
+        <BgImage page="Contact Us"/>
     </div>
 </template>
 <script setup>

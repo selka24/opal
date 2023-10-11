@@ -2,8 +2,8 @@
     <div class="flex items-center">
         <div class="w-[100px] h-[100px] rounded-full bg-slate-600 mr-5"></div>
         <div class="flex flex-col text-left">
-            <h2 class="text-3xl leading-normal">{{ avatar.fullName }}</h2>
-            <p class="text-lg font-light leading-normal">{{avatar.job}}</p>
+            <h3>{{ avatar.fullName }}</h3>
+            <p class="text-lg">{{avatar.job}}</p>
         </div>
     </div>
 </template>

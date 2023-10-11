@@ -1,6 +1,6 @@
 <template>
-    <div  class="text-white">
-        PORTFOLIO.
+    <div>
+        <BgImage page="Our Portfolio"/>
     </div>
 </template>
 <script setup>

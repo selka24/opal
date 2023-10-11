@@ -1,11 +1,11 @@
 <template>
-    <div class="p-8 leading-7 text-white bg-primary/5">
+    <div class="p-8 leading-7  bg-primary/5">
         <div class="rounded-full mb-14 w-32 h-32 relative border-2 border-white/30 hover:bg-secondary-content hover:border-secondary-content">
             <div class="rounded-full font-semibold w-10 h-10 bg-primary text-center absolute left-0 leading-10">0{{step.idx + 1}}</div>
-            <nuxt-icon :name="step.icon" class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" filled/>
+            <NuxtIcon :name="step.icon" class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" filled/>
         </div>
-        <h3 class="text-3xl mb-7 font-bold">{{step.title}}</h3>
-        <p class="opacity-70 font-light">{{step.description}}</p>
+        <h3 class="mb-7">{{step.title}}</h3>
+        <p>{{step.description}}</p>
     </div>
 </template>
 <script setup>

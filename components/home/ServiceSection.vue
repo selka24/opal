@@ -1,6 +1,6 @@
 
 <template>
-    <div class="text-white mt-36">
+    <div class=" mt-36">
         <SectionHeader
             title="Our services"
             description="Dramatically supply transparent backward deliverables before caward comp internal or organic sources"

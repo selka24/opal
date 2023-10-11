@@ -1,9 +1,7 @@
 <template>
-    <div class="flex mt-72 justify-center">
-        <div class="flex flex-wrap justify-between w-full gap-y-4">
-            <div v-for="tech in technologies" :key="tech">
-                <nuxt-icon :name="`technologies/${tech}`" class="text-[5rem]" filled/>
-            </div>
+    <div class="flex mt-40 flex-wrap w-full gap-8 xs:gap-20 justify-center">
+        <div v-for="tech in technologies" :key="tech">
+            <NuxtIcon :name="`technologies/${tech}`" class="text-6xl sm:text-[5rem]" filled/>
         </div>
     </div>
 </template>

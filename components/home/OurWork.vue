@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-60 text-white relative">
+    <div class="mt-60  relative">
         <div class="w-[50%] m-auto absolute top-[10%] right-[10%] z-1">
             <div class="h-0 pb-[100%] rounded-full bg-primary opacity-20 blur-[150px]"></div>
         </div>

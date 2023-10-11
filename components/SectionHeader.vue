@@ -1,7 +1,7 @@
 <template>
-    <div class="max-w-md mb-14 text-white">
-        <h2 class="text-5xl leading-[60px] font-bold">{{ title }}</h2>
-        <p class="opacity-70 text-sm leading-7 mt-6 font-light">
+    <div class="max-w-md mb-14 ">
+        <h2>{{ title }}</h2>
+        <p class="text-sm mt-6">
             {{ description }}
         </p>
     </div>

@@ -8,10 +8,10 @@
             </div>
         </div>
         <div class="mt-9">
-            <p class="mb-4 leading-7">
+            <p class="mb-4">
                 {{project.description}}
             </p>
-            <h3 class="text-3xl font-semibold leading-7">{{project.title}}</h3>
+            <h3 class="font-semibold">{{project.title}}</h3>
         </div>
     </NuxtLink>
 </template>

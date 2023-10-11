@@ -1,9 +1,10 @@
 <template>
-    <div class="text-white">
-        ABOUT US.
+    <div>
+        <BgImage page="About Us"/>
     </div>
 </template>
 <script setup>
+
 useHead({
     title: 'About us',
     meta: [
