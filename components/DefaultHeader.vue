@@ -52,7 +52,7 @@ import Hamburger from "~/components/Hamburger.vue";
 const showMenu = ref(false);
 
 const headerInfo = [
-    {icon: 'time', title: 'Time', content: opalInfo.workHours},
+    {icon: 'time', title: 'Time', content: opalInfo.time},
     {icon: 'location', title: 'Location', content: 'AL, Tirana'},
     {icon: 'phone', title: 'Phone', content: opalInfo.phone}
 ]

@@ -28,7 +28,7 @@
                     </div>
                     <div class="order-2 lg:order-3">
                         <h5 class="font-bold mb-10">{{opalInfo.email}}</h5>
-                        <h6 v-html="opalInfo.address"/>
+                        <h6 v-html="opalInfo.location"/>
                     </div>
                 </div>
                 <HrBreak class="my-14"/>
