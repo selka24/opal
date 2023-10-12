@@ -14,7 +14,7 @@
                 <p class="mt-6">
                     Dramatically supply transparent deliverables before caward comp internal or "organic" sources. Comp transparent and leverage backward other.
                 </p>
-                <hr class="h-px my-6 bg-white border-0">
+                <HrBreak class="opacity-100 my-6"/>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div class="flex bg-white rounded-[5px] text-xl font-medium text-secondary py-4 px-8 justify-center items-center">
                         <nuxt-icon name="clock" filled class="text-[59px] mr-2"/>
@@ -42,4 +42,5 @@
 }
 </style>
 <script setup lang="ts">
+import HrBreak from "~/components/HrBreak.vue";
 </script>

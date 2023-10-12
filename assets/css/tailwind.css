@@ -9,7 +9,7 @@
     }
 
     h1{
-        @apply text-4xl xs:text-5xl sm:text-6xl leading-normal font-bold;
+        @apply sm:text-6xl xs:text-5xl text-4xl leading-normal font-bold;
     }
 
     h2{
@@ -17,18 +17,18 @@
     }
 
     h3{
-        @apply text-3xl font-bold leading-7;
-    }
-
-    h3{
-        @apply text-3xl font-bold leading-7;
+        @apply text-4xl font-bold leading-normal;
     }
 
     h4{
-        @apply text-2xl font-medium leading-8;
+        @apply text-3xl font-bold leading-7;
     }
 
     h5{
+        @apply text-2xl font-medium leading-8;
+    }
+
+    h6{
         @apply text-xl leading-8 font-medium;
     }
 

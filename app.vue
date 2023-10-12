@@ -28,6 +28,7 @@ DONE------
 16.footer
 17.bg image for default pages
 18.add two layouts
+19.About us page - (team member section and components, prcing section and pricing card component)
 
 TO DO-------
 

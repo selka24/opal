@@ -4,7 +4,7 @@
             <div class="rounded-full font-semibold w-10 h-10 bg-primary text-center absolute left-0 leading-10">0{{step.idx + 1}}</div>
             <NuxtIcon :name="step.icon" class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" filled/>
         </div>
-        <h3 class="mb-7">{{step.title}}</h3>
+        <h4 class="mb-7">{{step.title}}</h4>
         <p>{{step.description}}</p>
     </div>
 </template>

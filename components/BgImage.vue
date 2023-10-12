@@ -6,7 +6,6 @@
             <p class="text-white opacity-100 font-normal">Home - Pages - <span class="text-secondary-content">{{page}}</span></p>
         </div>
     </div>
-
 </template>
 <script setup>
     defineProps({

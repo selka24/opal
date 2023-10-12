@@ -8,7 +8,7 @@
             <p>
                 Dramatically supply transparent backward deliverables before caward comp internal or organic sources.
             </p>
-            <hr class="h-[0.5px] my-14 bg-white opacity-10 border-0 w-full">
+            <HrBreak class="my-14"/>
             <RatingStars :rating="4.5"/>
             <div class="text-xl sm:text-3xl leading-normal sm:leading-[46px] mb-12 px-6">
                 “Energistically architect parallel leadership through standardized results. Globally develop enabled leadership skills whereas multimedia based convergence. Professionally maintain best-of-breed markets and standardized leadership. Interactively embrace”

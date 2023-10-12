@@ -11,7 +11,7 @@
             <p class="mb-4">
                 {{project.description}}
             </p>
-            <h3 class="font-semibold">{{project.title}}</h3>
+            <h4 class="font-semibold">{{project.title}}</h4>
         </div>
     </NuxtLink>
 </template>
