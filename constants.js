@@ -61,3 +61,10 @@ export const pricingOptions = [
         ]
     },
 ]
+
+
+export const projects = [
+    {title: 'Web Analytics', description : 'Web Design', image: ''},
+    {title: 'Cyber Secure', description : 'Cyber Security Core', image: ''},
+    {title: 'Mobile info', description : 'Upcoming Phone', image: ''},
+]

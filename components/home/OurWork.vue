@@ -19,9 +19,5 @@
     </div>
 </template>
 <script setup>
-    const projects = [
-        {title: 'Web Analytics', description : 'Web Design', image: ''},
-        {title: 'Cyber Secure', description : 'Cyber Security Core', image: ''},
-        {title: 'Mobile info', description : 'Upcoming Phone', image: ''},
-    ]
+import {projects} from "~/constants.js";
 </script>
