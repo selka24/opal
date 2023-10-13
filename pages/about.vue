@@ -10,7 +10,7 @@
         </div>
         <MembersSection/>
         <PricingSection/>
-        <WorkWithUs/>
+        <WorkWithUs class="mt-36"/>
     </div>
 </template>
 <script setup>

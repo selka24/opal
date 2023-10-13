@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="flex justify-center px-5 xs:px-10">
-            <HrBreak class="mt-28 mb-36 max-w-7xl"/>
-        </div>
-        <div class="px-5 xs:px-10 mb-24 flex justify-center">
+<!--        <div class="flex justify-center px-5 xs:px-10">-->
+<!--            <HrBreak class="mb-36 max-w-7xl"/>-->
+<!--        </div>-->
+        <div class="px-5 xs:px-10 mt-36 mb-24 flex justify-center">
             <div>
                 <div class="grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3 max-w-7xl relative">
                     <div class="order-1">

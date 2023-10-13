@@ -26,7 +26,9 @@
                 </div>
                 <ButtonDefault class="mt-16">LOAD MORE</ButtonDefault>
             </div>
-            <WorkWithUs />
+        </div>
+        <div class="bg-primary/10 flex w-full justify-center py-16 px-5 mt-36">
+            <WorkWithUs/>
         </div>
     </div>
 </template>

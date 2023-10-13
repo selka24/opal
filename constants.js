@@ -7,7 +7,7 @@ export const pages = [
 
 export const opalInfo = {
     email: 'opal@email.com',
-    location: 'Rr. Tish Dahia, Kompleksi Kika 2 <br> Tirana, Albania',
+    location: 'Rr. Tish Dahia, <br> Kompleksi Kika 2 <br> Tirana, Albania',
     phone: '+355 44 55 667',
     time: '10AM - 11:30PM'
 }
