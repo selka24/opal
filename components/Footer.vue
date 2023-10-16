@@ -21,9 +21,7 @@
                     </div>
                     <div class="flex justify-center col-span-1 md:col-span-2 order-3 lg:order-2 lg:col-span-1">
                         <div class="flex flex-wrap lg:flex-col gap-7">
-                            <NuxtLink v-for="page in pages" :to="page.path">
-                                {{page.name}}
-                            </NuxtLink>
+                            <RouteLinks class-override="text-base"/>
                         </div>
                     </div>
                     <div class="order-2 lg:order-3">
@@ -43,6 +41,5 @@
     </div>
 </template>
 <script setup>
-    import {pages, opalInfo, socialNetworks} from "~/constants.js";
-    import HrBreak from "~/components/HrBreak.vue";
+    import {opalInfo, socialNetworks} from "~/constants.js";
 </script>

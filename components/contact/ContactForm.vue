@@ -26,8 +26,6 @@
     </div>
 </template>
 <script setup>
-    import InputDefault from "~/components/InputDefault.vue";
-
     const contactForm = ref({
         name: '',
         email: '',

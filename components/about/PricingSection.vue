@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center px-5">
+    <div class="flex justify-center px-5" id="pricing">
         <div class="max-w-7xl flex flex-col items-center relative">
             <div class="mt-24 mb-14 max-w-2xl relative w-full flex flex-col items-center px-5">
                 <div class="text-lg text-secondary-content font-medium leading-normal">
@@ -22,8 +22,6 @@
     </div>
 </template>
 <script setup>
-import ToggleBox from "~/components/ToggleBox.vue";
 import {pricingOptions} from "~/constants.js";
-import PricingCard from "~/components/PricingCard.vue";
 const yearlyPricing = ref(false)
 </script>

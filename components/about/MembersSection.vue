@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gradient-to-b from-primary/10 w-full mt-40 relative flex justify-center overflow-x-hidden px-5">
+    <div class="bg-gradient-to-b from-primary/10 w-full mt-40 relative flex justify-center overflow-x-hidden px-5" id="team">
         <div class="max-w-7xl flex flex-col items-center relative z-10 w-full">
             <div class="mt-24 max-w-2xl relative w-full flex flex-col items-center px-5">
                 <NuxtIcon name="sparkle" class="text-secondary-content text-4xl absolute left-0 top-0"/>
@@ -30,5 +30,4 @@
 </template>
 <script setup>
     import {members} from "~/constants.js";
-    import ButtonDefault from "~/components/ButtonDefault.vue";
 </script>

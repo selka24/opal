@@ -25,8 +25,6 @@
 </template>
 <script setup>
     import {productServices} from "~/constants.js";
-    import HrBreak from "~/components/HrBreak.vue";
-    import ButtonDefault from "~/components/ButtonDefault.vue";
 
     defineProps({
         topOption: Boolean,

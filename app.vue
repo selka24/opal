@@ -1,6 +1,6 @@
 <template>
     <div class="text-white">
-        <NuxtLayout>
+        <NuxtLayout id="top">
             <NuxtPage class="z-1 relative"/>
         </NuxtLayout>
         <Footer/>
@@ -35,5 +35,5 @@ TO DO-------
 
 -->
 <script setup>
-const {path} = useRoute();
+const route = useRoute();
 </script>

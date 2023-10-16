@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-56  relative flex flex-col items-center">
+    <div class="mt-56  relative flex flex-col items-center" id="who-we-are">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-28 items-center">
             <img src="/images/cyberspace.webp" width="671" height="650" class="w-full h-auto" alt="cyberspace"/>
             <div>
@@ -26,6 +26,3 @@
         </div>
     </div>
 </template>
-<script setup lang="ts">
-import HrBreak from "~/components/HrBreak.vue";
-</script>

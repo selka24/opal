@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="contact">
         <BgImage page="Contact Us"/>
         <div class="flex justify-center mt-36 px-5">
             <div class="max-w-7xl flex flex-col">
@@ -39,10 +39,7 @@
 <script setup>
 import {opalInfo, socialNetworks} from "~/constants.js";
 import ContactCard from "~/components/contact/ContactCard.vue";
-import GoogleMaps from "~/components/GoogleMaps.vue";
-import SocialNetwork from "~/components/SocialNetwork.vue";
 import ContactForm from "~/components/contact/ContactForm.vue";
-import ButtonDefault from "~/components/ButtonDefault.vue";
 import WorkWithUs from "~/components/home/WorkWithUs.vue";
 useHead({
     title: 'Contact',

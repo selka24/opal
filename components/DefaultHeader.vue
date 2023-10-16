@@ -31,12 +31,7 @@
         </div>
         <div class="bg-secondary-content/10 hidden sm:flex justify-center w-full">
             <div class="max-w-7xl w-full gap-14 flex py-6 px-5 xl:px-0">
-                <NuxtLink v-for="page in pages"
-                          :key="page.name"
-                          :to="page.path"
-                          class="text-base font-medium uppercase">
-                    {{page.name}}
-                </NuxtLink>
+                <RouteLinks/>
             </div>
         </div>
         <Hamburger/>
@@ -46,8 +41,7 @@
     </div>
 </template>
 <script setup>
-import {pages, opalInfo} from "~/constants.js";
-import Hamburger from "~/components/Hamburger.vue";
+import {opalInfo} from "~/constants.js";
 
 const showMenu = ref(false);
 

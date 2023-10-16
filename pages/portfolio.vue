@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="portfolio">
         <BgImage page="Our Portfolio"/>
         <div class="flex flex-col items-center px-5">
             <div class="max-w-lg mt-40 text-center">
@@ -35,7 +35,6 @@
 <script setup>
 import {projects} from "~/constants.js";
 import WorkWithUs from "~/components/home/WorkWithUs.vue";
-import ButtonDefault from "~/components/ButtonDefault.vue";
 
 useHead({
     title: 'Portfolio',

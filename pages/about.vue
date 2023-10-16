@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <BgImage page="About Us"/>
+    <div id="about">
+        <BgImage page="About Us" />
         <div class="flex justify-center">
             <div class="flex flex-col items-center mt-40 px-5 xs:px-10 max-w-7xl">
                 <CardsSection/>

@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-20 mx-5 xs:mx-10">
+    <div class="mb-20 mx-5 xs:mx-10" id="home">
         <HeroSection/>
         <div class="flex justify-center">
             <div class="max-w-7xl w-full">
