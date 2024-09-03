@@ -15,11 +15,11 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     <div class="flex bg-white rounded-[5px] text-xl font-medium text-secondary py-4 px-8 justify-center items-center">
                         <nuxt-icon name="clock" filled class="text-[59px] mr-2"/>
-                        <span>Money back guarantee</span>
+                        <span>Innovation</span>
                     </div>
                     <div class="flex bg-white rounded-[5px] text-xl font-medium text-secondary py-4 px-8 justify-center items-center">
                         <nuxt-icon name="send" filled class="text-[59px] mr-2"/>
-                        <span>24/7 Online Support</span>
+                        <span>Customer Centric</span>
                     </div>
                 </div>
             </div>

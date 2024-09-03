@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="w-[169px] h-[49px] px-[27px] py-4 left-[980px] top-[1151px] absolute bg-purple-600 rounded-[5px] justify-center items-center gap-2.5 inline-flex">
-                <div class=" text-sm font-semibold  uppercase">Get Our Quote</div>
+                <nuxt-link to="/contact" class="text-sm font-semibold  uppercase">Get Our Quote</nuxt-link>
             </div>
             <div class="origin-top-left rotate-[-5deg] w-[1933.52px] h-[832.58px] left-[31.48px] top-[654.56px] absolute">
                 <div class="left-[106.40px] top-[772.39px] absolute origin-top-left rotate-[-5deg]  text-[32px] font-semibold  uppercase tracking-widest">Technology to elevate our human experience. Your Next It Solution Agency & Explore More</div>

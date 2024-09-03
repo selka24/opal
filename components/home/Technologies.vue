@@ -7,11 +7,11 @@
 </template>
 <script setup>
 const technologies = [
-    'css-3',
+    'dot-net-core-7',
+    'c--4',
     'laravel-2',
-    'logo-javascript',
-    'nuxt-2',
-    'postgresql',
-    'vitejs'
+    'vue-9',
+    'angular-icon-1',
+    'azure-1',
 ]
 </script>
