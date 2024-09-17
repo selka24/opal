@@ -22,7 +22,7 @@
                         <NuxtIcon :name="info.icon" class="hidden md:block text-4xl mr-2" filled/>
                         <div>
                             <p class="opacity-100">{{info.title}}</p>
-                            <p class="font-bold opacity-100">{{info.content}}</p>
+                            <p class="font-bold opacity-100 text-sm">{{info.content}}</p>
                         </div>
                         <div v-if="(idx + 1) < headerInfo.length" class="border-r-2 border-white/20 h-7 mx-3.5 sm:mx-5 md:mx-7"></div>
                     </div>

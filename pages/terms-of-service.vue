@@ -6,7 +6,7 @@ import NumberList from "~/components/NumberList.vue";
 <template>
     <div>
         <BgImage page="Privacy and Policy" />
-        <div class="flex flex-col gap-8 max-w-7xl mx-auto mt-10">
+        <div class="flex flex-col gap-8 max-w-7xl mx-auto mt-10 px-5">
             <div>
                 <h6 class="font-bold">Effective Date: &nbsp;&nbsp; <span class="font-semibold">20.10.2023</span></h6>
             </div>
