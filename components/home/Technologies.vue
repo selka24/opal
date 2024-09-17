@@ -12,6 +12,6 @@ const technologies = [
     'laravel-2',
     'vue-9',
     'angular-icon-1',
-    'azure-1',
+    'dynamics',
 ]
 </script>

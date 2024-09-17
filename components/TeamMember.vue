@@ -4,7 +4,10 @@
         <div class="flex flex-col items-center">
             <div class="bg-white/10 w-full h-[250px] absolute bottom-0 z-[1]"/>
             <div class="px-5 relative z-10 w-full flex justify-center group/image">
-                <img width="250" height="250" :src="`/images/${member.image || 'avatar.webp'}`" class="w-auto h-[250px] object-cover" alt="profile image">
+                <nuxt-img sizes="250px"
+                          :src="`/images/${member.image || 'avatar.webp'}`"
+                          class="w-auto h-[250px] object-cover"
+                          alt="profile image"/>
                 <div class="absolute justify-center flex bottom-0 gap-2.5 transition-all ease-out duration-500 opacity-0 group-hover/image:opacity-100 group-hover/image:-translate-y-5">
                     <social-network v-for="social in (member.socialLinks || socialNetworks)"
                                     class="bg-white !p-3 group/icon"

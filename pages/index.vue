@@ -6,10 +6,10 @@
                 <Technologies/>
                 <WhoWeAre/>
                 <ServiceSection/>
-                <OurWork/>
                 <HowSection/>
-                <NumbersSection/>
-                <TestimonialSection/>
+<!--                <NumbersSection/>-->
+<!--                <TestimonialSection/>-->
+                <OurWork/>
                 <WorkWithUs class="mt-36"/>
             </div>
         </div>
@@ -22,17 +22,16 @@ import WhoWeAre from "~/components/home/WhoWeAre.vue";
 import ServiceSection from "~/components/home/ServiceSection.vue";
 import OurWork from "~/components/home/OurWork.vue";
 import HowSection from "~/components/home/HowSection.vue";
-import NumbersSection from "~/components/home/NumbersSection.vue";
-import TestimonialSection from "~/components/home/TestimonialSection.vue";
+// import NumbersSection from "~/components/home/NumbersSection.vue";
+// import TestimonialSection from "~/components/home/TestimonialSection.vue";
 import WorkWithUs from "~/components/home/WorkWithUs.vue";
 
 useHead({
-    title: 'Opal',
+    title: 'Shark Technologies | Microsoft D365 F&O, Software Development, Cyber Security in Albania',
     meta: [
-        { name: 'description', content: 'Opal technologies. We\'re a innovative IT solutions.' }
-    ],
+        {name: 'description', content: 'Shark Technologies | Microsoft D365 F&O, Software Development, Cyber Security in Albania'}
+    ]
 })
-
 definePageMeta({
     layout: 'home'
 })

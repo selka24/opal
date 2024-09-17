@@ -1,9 +1,5 @@
 <script setup>
-    const aboutCards = [
-        {icon: 'smartphone', title: 'Hybrid Apps', description: 'Authoritatively revolutionize the realise is performance based content.'},
-        {icon: 'wallet', title: 'Hybrid Apps', description: 'Authoritatively revolutionize the realise is performance based content.'},
-        {icon: 'headphones', title: 'Hybrid Apps', description: 'Authoritatively revolutionize the realise is performance based content.'}
-    ]
+import {aboutCards} from "~/constants.js";
 </script>
 
 <template>

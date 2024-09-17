@@ -5,7 +5,7 @@
             <div class="w-20 h-20 rounded-full bg-white flex justify-center items-center">
                 <NuxtIcon :name="getIcon" class="text-3xl text-secondary-content"/>
             </div>
-            <h5 v-html="info.content"/>
+            <h6 v-html="info.content"/>
         </div>
     </div>
 </template>

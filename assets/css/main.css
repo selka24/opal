@@ -63,3 +63,7 @@ input:-webkit-autofill:active{
     /*transition: background-color 5000s ease-in-out 0s;*/
     box-shadow: none;
 }
+
+b{
+    font-weight: 600 !important;
+}

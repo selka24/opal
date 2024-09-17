@@ -14,8 +14,8 @@
 <!--        </Transition>-->
         <div class="flex my-10 px-5 items-center justify-center w-full">
             <div class="flex w-full max-w-7xl items-center">
-                <div class="text-[28px] font-bold uppercase">
-                    OPAL .
+                <div class="text-[22px] md:text-[28px] font-bold uppercase">
+                    Shark Technologies
                 </div>
                 <div class="ml-auto hidden sm:flex">
                     <div v-for="(info, idx) in headerInfo" class="flex items-center">
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="bg-secondary-content/10 hidden sm:flex justify-center w-full">
-            <div class="max-w-7xl w-full gap-14 flex py-6 px-5 xl:px-0">
+            <div class="max-w-7xl w-full gap-14 flex py-6 px-5">
                 <RouteLinks/>
             </div>
         </div>
@@ -41,13 +41,13 @@
     </div>
 </template>
 <script setup>
-import {opalInfo} from "~/constants.js";
+import {sharkInfo} from "~/constants.js";
 
 const showMenu = ref(false);
 
 const headerInfo = [
-    {icon: 'time', title: 'Time', content: opalInfo.time},
+    {icon: 'time', title: 'Time', content: sharkInfo.time},
     {icon: 'location', title: 'Location', content: 'AL, Tirana'},
-    {icon: 'phone', title: 'Phone', content: opalInfo.phone}
+    {icon: 'phone', title: 'Phone', content: sharkInfo.phone}
 ]
 </script>

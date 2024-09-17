@@ -4,7 +4,7 @@
 <!--        rounded-none bg-gradient-to-b from-white/30 p-0.5 pb-0 hover:from-secondary-content hover:to-secondary-content-->
         <div class="group border-gradient">
             <div class="pt-7 pl-7 hover:bg-secondary-content">
-                <img src="/images/business.webp" width="8000" height="5333" class="w-full h-auto" alt="project"/>
+                <nuxt-img format="webp" quality="70" sizes="100vw md:360px" src="/images/business.webp" class="w-full h-auto" alt="project"/>
             </div>
         </div>
         <div class="mt-9">
