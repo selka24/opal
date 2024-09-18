@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import NumberList from "~/components/NumberList.vue";
 
+useHead({
+    title: 'Privacy and Policy',
+    meta: [
+        { name: 'description', content: 'Privacy and Policy.' }
+    ],
+})
+
 const privacyPolicy = [
     {
         title: 'Information We Collect',

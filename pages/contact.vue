@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="bg-primary/10 flex w-full justify-center py-16 px-5 mt-36">
-            <WorkWithUs/>
+            <WorkWithUs :hideButton="true"/>
         </div>
     </div>
 </template>
@@ -42,7 +42,7 @@ import ContactCard from "~/components/contact/ContactCard.vue";
 import ContactForm from "~/components/contact/ContactForm.vue";
 import WorkWithUs from "~/components/home/WorkWithUs.vue";
 useHead({
-    title: 'Contact',
+    title: 'Contact Us',
     meta: [
         { name: 'description', content: 'Contact us.' }
     ],

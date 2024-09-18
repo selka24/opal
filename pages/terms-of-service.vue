@@ -1,11 +1,19 @@
 <script setup>
 import {termsOfService} from "~/constants";
 import NumberList from "~/components/NumberList.vue";
+
+
+useHead({
+    title: 'Terms of Service',
+    meta: [
+        { name: 'description', content: 'Terms of Service' }
+    ],
+})
 </script>
 
 <template>
     <div>
-        <BgImage page="Privacy and Policy" />
+        <BgImage page="Terms of Service" />
         <div class="flex flex-col gap-8 max-w-7xl mx-auto mt-10 px-5">
             <div>
                 <h6 class="font-bold">Effective Date: &nbsp;&nbsp; <span class="font-semibold">20.10.2023</span></h6>

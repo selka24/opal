@@ -6,18 +6,22 @@
         <div class="z-2 relative">
             <SectionHeader
                 title="Featured Works"
-                description="Dramatically supply transparent backward deliverables before caward comp internal organic sources"
             />
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-                <WorkProject
-                    v-for="(project, idx) in projects"
-                    :key="idx + '-project'"
-                    :project="project"
-                />
+            <div class="flex flex-col items-center gap-10">
+                <ProjectCard v-for="(project, idx) in threeProjects" :key="idx + 'project'" :project="project"/>
+
+                <!--                <WorkProject-->
+<!--                    v-for="(project, idx) in projects"-->
+<!--                    :key="idx + '-project'"-->
+<!--                    :project="project"-->
+<!--                />-->
             </div>
         </div>
     </div>
 </template>
 <script setup>
-import {projects} from "~/constants.js";
+import {projectPortfolio} from "~/constants.js";
+import ProjectCard from "~/components/ProjectCard.vue";
+
+const threeProjects = [projectPortfolio[0], projectPortfolio[1], projectPortfolio[4]];
 </script>

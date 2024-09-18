@@ -1,8 +1,7 @@
 <template>
     <div class="mt-60">
         <SectionHeader
-            title="How It Works"
-            description="Dramatically supply transparent backward deliverables before caward comp internal or organic sources."
+            title="Why Choose Us"
         />
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-11">
             <HowStep
