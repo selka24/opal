@@ -9,7 +9,7 @@ export const sharkInfo = {
     email: 'admin@shark-technologies.com',
     location: 'Rr. Ali Pashe Gucia, <br> Pallati Aurora, H.1, <br>Tirane, Albania',
     phone: '+355 69 619 55 44',
-    time: '9:00 AM to 6:00 PM'
+    time: '9:00 AM to 6:00 PM (CEST)'
 }
 
 export const socialNetworks= [
