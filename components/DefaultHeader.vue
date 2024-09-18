@@ -14,7 +14,7 @@
 <!--        </Transition>-->
         <div class="flex my-10 px-5 items-center justify-center w-full">
             <div class="flex w-full max-w-7xl items-center">
-                <div class="text-[22px] md:text-[28px] font-bold uppercase">
+                <div class="text-[22px] md:text-[28px] font-bold">
                     Shark Technologies
                 </div>
                 <div class="ml-auto hidden sm:flex">
@@ -46,8 +46,8 @@ import {sharkInfo} from "~/constants.js";
 const showMenu = ref(false);
 
 const headerInfo = [
-    {icon: 'time', title: 'Time', content: sharkInfo.time},
-    {icon: 'location', title: 'Location', content: 'AL, Tirana'},
+    {icon: 'time', title: 'Business Hours', content: sharkInfo.time},
+    {icon: 'location', title: 'Location', content: 'Tirana, ALB'},
     {icon: 'phone', title: 'Phone', content: sharkInfo.phone}
 ]
 </script>
