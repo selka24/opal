@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-60">
+    <div class="mt-40">
         <SectionHeader
             title="Why Choose Us"
         />

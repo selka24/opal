@@ -5,7 +5,7 @@
             <NuxtIcon :name="`serviceCards/${step.icon}`" class="text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"/>
         </div>
         <h4 class="mb-7">{{step.title}}</h4>
-        <p>{{step.description}}</p>
+        <p class="text-justify">{{step.description}}</p>
     </div>
 </template>
 <script setup>
