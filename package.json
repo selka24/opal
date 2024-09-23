@@ -7,17 +7,22 @@
     "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "pm2 deploy ecosystem.config.cjs production"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/image": "^1.8.0",
+    "@nuxtjs/robots": "^4.1.7",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^3.7.4",
+    "nuxt-schema-org": "^3.4.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@nuxtjs/seo": "^2.0.0-rc.21",
+    "@nuxtjs/sitemap": "^6.1.0",
     "nuxt-icons": "^3.2.1"
   }
 }

@@ -56,11 +56,24 @@ import {projects} from "~/constants.js";
 import {projectPortfolio} from "~/constants.js";
 import WorkWithUs from "~/components/home/WorkWithUs.vue";
 import ProjectCard from "~/components/ProjectCard.vue";
-
 useHead({
-    title: 'Portfolio',
+    title: 'Portfolio | Shark Technologies | Web Development & D365 Solutions',
     meta: [
-        { name: 'description', content: 'Our work portfolio.' }
-    ],
-})
+        { name: 'description', content: 'Explore Shark Technologies\' portfolio of web development projects, D365 solutions, and custom applications delivered to businesses globally.' },
+
+        // Open Graph (OG) Meta Tags for Social Sharing
+        { property: 'og:title', content: 'Portfolio | Shark Technologies - Web Development & D365 Solutions' },
+        { property: 'og:description', content: 'Showcasing our portfolio of static websites, web applications, and D365 implementations for businesses worldwide.' },
+        { property: 'og:image', content: 'https://shark-technologies.com/images/default-social-image.png' },
+
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://shark-technologies.com/portfolio' },
+
+        // Twitter Meta Tags for Social Sharing
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Portfolio | Shark Technologies' },
+        { name: 'twitter:description', content: 'Explore our portfolio of web development and D365 solutions for global businesses.' },
+        { name: 'twitter:image', content: 'https://shark-technologies.com/images/default-social-image.png' }
+    ]
+});
 </script>

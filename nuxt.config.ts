@@ -1,4 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import {sharkInfo} from "./constants.js";
+
+const telephone = sharkInfo.phone.replace(' ', '')
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
@@ -15,5 +19,24 @@ export default defineNuxtConfig({
   css: [
       '~/assets/css/main.css',
   ],
-  modules: ['nuxt-icons', '@nuxtjs/tailwindcss', '@nuxt/image']
+  modules: ['nuxt-icons', '@nuxtjs/tailwindcss', '@nuxt/image', '@nuxtjs/seo', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-schema-org'],
+  schemaOrg: {
+    identity: {
+      type: 'Organization',
+      name: 'Shark Technologies | Microsoft D365 F&O, Software Development, Cyber Security in Albania',
+      url: 'https://shark-technologies.com',
+      logo: '/default-social-image.png'
+    }
+  },
+  site: {
+    url: 'https://shark-technologies.com',
+    name: 'Shark Technologies | Microsoft D365 F&O, Software Development, Cyber Security in Albania',
+    routes: [
+      '/', '/portfolio', '/contact', '/about', '/privacy-policy', '/terms-of-service',
+    ]
+  },
+  robots: {
+    sitemap: '/sitemap.xml',
+    allow: ['/'],
+  }
 })

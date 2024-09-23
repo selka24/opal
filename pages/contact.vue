@@ -42,9 +42,15 @@ import ContactCard from "~/components/contact/ContactCard.vue";
 import ContactForm from "~/components/contact/ContactForm.vue";
 import WorkWithUs from "~/components/home/WorkWithUs.vue";
 useHead({
-    title: 'Contact Us',
+    title: 'Contact Shark Technologies | Web & D365 Solutions',
     meta: [
-        { name: 'description', content: 'Contact us.' }
-    ],
+        { name: 'description', content: 'Contact Shark Technologies for inquiries about web development, D365 solutions, and custom web applications.' },
+        { property: 'og:title', content: 'Contact Shark Technologies' },
+        { property: 'og:description', content: 'Reach out to Shark Technologies for all your web development and business solution needs.' },
+        { property: 'og:image', content: 'https://shark-technologies.com/images/default-social-image.png' },
+        { name: 'twitter:title', content: 'Contact Shark Technologies' },
+        { name: 'twitter:description', content: 'Contact Shark Technologies for professional web development and D365 solutions.' },
+        { name: 'twitter:image', content: 'https://shark-technologies.com/images/default-social-image.png' }
+    ]
 })
 </script>

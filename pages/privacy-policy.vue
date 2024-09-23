@@ -2,11 +2,24 @@
 import NumberList from "~/components/NumberList.vue";
 
 useHead({
-    title: 'Privacy and Policy',
+    title: 'Privacy Policy | Shark Technologies',
     meta: [
-        { name: 'description', content: 'Privacy and Policy.' }
-    ],
-})
+        { name: 'description', content: 'Read the privacy policy of Shark Technologies. Learn how we collect, use, and protect your information when you interact with our services.' },
+
+        // Open Graph (OG) Meta Tags for Social Sharing
+        { property: 'og:title', content: 'Privacy Policy | Shark Technologies' },
+        { property: 'og:description', content: 'Learn more about Shark Technologies\' privacy practices, including how we protect your data.' },
+        { property: 'og:image', content: 'https://shark-technologies.com/images/default-social-image.png' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://shark-technologies.com/privacy-policy' },
+
+        // Twitter Meta Tags for Social Sharing
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Privacy Policy | Shark Technologies' },
+        { name: 'twitter:description', content: 'Shark Technologies explains its privacy policy and how your data is handled.' },
+        { name: 'twitter:image', content: 'https://shark-technologies.com/images/default-social-image.png' }
+    ]
+});
 
 const privacyPolicy = [
     {

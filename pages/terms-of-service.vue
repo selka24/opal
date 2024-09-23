@@ -2,13 +2,25 @@
 import {termsOfService} from "~/constants";
 import NumberList from "~/components/NumberList.vue";
 
-
 useHead({
-    title: 'Terms of Service',
+    title: 'Terms of Service | Shark Technologies',
     meta: [
-        { name: 'description', content: 'Terms of Service' }
-    ],
-})
+        { name: 'description', content: 'Review the terms of service of Shark Technologies. Understand the terms you agree to when using our website and services.' },
+
+        // Open Graph (OG) Meta Tags for Social Sharing
+        { property: 'og:title', content: 'Terms of Service | Shark Technologies' },
+        { property: 'og:description', content: 'Learn about the terms and conditions for using Shark Technologies\' services and website.' },
+        { property: 'og:image', content: 'https://shark-technologies.com/images/default-social-image.png' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://shark-technologies.com/terms-of-service' },
+
+        // Twitter Meta Tags for Social Sharing
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'Terms of Service | Shark Technologies' },
+        { name: 'twitter:description', content: 'Understand the rules and conditions for using Shark Technologies\' website and services.' },
+        { name: 'twitter:image', content: 'https://shark-technologies.com/images/default-social-image.png' }
+    ]
+});
 </script>
 
 <template>
